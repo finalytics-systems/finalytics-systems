@@ -179,3 +179,5 @@ user_data_fields = [
 # 	"erpnext_app.auth.validate"
 # ]
 
+
+fixtures = ["Custom Field"]

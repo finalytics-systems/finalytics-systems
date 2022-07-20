@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{vehiclename}-{variant}",
+ "creation": "2022-07-20 13:59:57.834831",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehicle_name",
+  "variant",
+  "commission_amount",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Vehicle Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "variant",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Variant",
+   "reqd": 1
+  },
+  {
+   "fieldname": "commission_amount",
+   "fieldtype": "Currency",
+   "label": "Commission Amount"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Vehicles",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-07-20 13:59:57.834831",
+ "modified_by": "Administrator",
+ "module": "Erpnext App",
+ "name": "Vehicles",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1
+}
